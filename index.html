@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Bank Przyszłości | Z nami zrealizujesz swoją wizję </title>
+  <script defer src="script.js"></script>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/logo.png" alt="BANK LOGO" class="nav__logo" id="logo" designer="Martyna"
+        data-version-number="3.0" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Cechy</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Operacje</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Opinie</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Otwórz konto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <!-- <h1 onclick="alert('HTML alert')"> -->
+      <h1>
+        Kiedy
+        <!-- Green highlight effect -->
+        <span class="highlight">Bank </span>
+        staje się<br />
+        <span class="highlight">przyszłością</span>
+      </h1>
+      <h4> Nowe technologie, które zmieniają korzystanie z usług bankowych. </h4>
+      <button class="btn--text btn--scroll-to">Czytaj więcej &DownArrow;</button>
+      <img src="img/hero.png" class="header__img" alt="Minimalist bank items" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Cechy</h2>
+      <h3 class="section__header">
+        Wszystko czego potrzebujesz, znajdziesz u nas
+      </h3>
+    </div>
+
+    <div class="features">
+      <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Mobilny bank </h5>
+        <p>
+          Korzyści, w których możesz dowolnie wybierać.
+          Bank intuicyjnie proponuje Ci w jaki sposób zarządzać środkami zgromadzonymi na koncie, oraz doradza jakie
+          kroki powinieneś wykonać, aby podjąć najlepszą decyzję.
+          Jesteśmy do Twojej dyspozycji 24h/7 dni w tygodniu.
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-trending-up"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Obserwuj jak rosną Twoje pieniądze</h5>
+        <p>
+          To jedyna aplikacja pełna tak wielu KORZYŚCI.
+
+          Wszystko kręci się wokół Ciebie.
+
+          Zobacz jak dopasowana może być bankowość
+        </p>
+      </div>
+      <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" alt="Plant" class="features__img lazy-img" />
+
+      <img src="img/card-lazy.jpg" data-src="img/card.jpg" alt="Credit card" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-credit-card"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Dodatkowo</h5>
+        <p>
+          Bezpłatna karta kredytowa dzięki której otrzymasz wyjątkowe zniżki na zakupy w Twoich ulubionych sklepach.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Operacje</h2>
+      <h3 class="section__header">
+        Wszystko jest możliwe, ale nigdy nie było prostsze.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Natychmiastowy przelew
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Pożyczka w kilka sekund
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span> Zamknięcie konta w kilka sekund
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Przelewaj pieniądze każdemu bez dodatkowych opłat.
+        </h5>
+        <p>
+          Ciesz się bankowością elektroniczną. Wysyłaj pieniędza bez opłat także na arenie międzynarodowej. Na start
+          otrzymasz atrakcyjne oprocentowanie, a także zwrot w wysokości 300PLN za pięć pierwszych płatności kartą.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Natychmiastowa pożyczka bez prowizji.
+        </h5>
+        <p>
+          Od pierwszego dnia założenia konta, możesz otrzymać pożyczkę 0%.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Nie potrzebujesz już konta? Zamknij je w kilka sekund.
+        </h5>
+        <p>
+          Wychodzimy naprzeciw potrzebom klienta. Korzystanie z bankowości elektronicznej jest całkowicie bezpłatne.
+          Jeżeli jednak zdecydujesz się zamknąć konto, możesz to zrobić w kilka sekund.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Nie jesteś jeszcze zdecydowany?</h2>
+      <h3 class="section__header">
+        Miliony zadowolonych klientów skorzystało z naszej oferty.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">To najlepsza decyzja!</h5>
+          <blockquote class="testimonial__text">
+            Myśl o wzięciu pożyczki napawała mnie strachem. Bałam się załatwiania formalności, wypełniania papierów,
+            szukania informacji jakie dokumenty będą mi potrzebne… Po spotkaniu z asystentem banku wszystkie obawy
+            odeszły w niepamięć :) Moim zadaniem było jedynie złożenie kilku podpisów oraz dosłanie kilku dokumentów,
+            resztą zajął się bank, dzięki któremu mogę teraz szykować się do przeprowadzki do mojego nowego mieszkania!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Szymon Nowak </h6>
+            <p class="testimonial__location">Poland</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            The app is wonderfull
+          </h5>
+          <blockquote class="testimonial__text">
+            The app is wondeful. I have used multiple and this application is the most reliable and user friendly. What
+            I like the most about it is that you can do nearby everything that you can do also on the website which
+            makes it flexible. What I could have in the app as extras: - easier way of communicating issues in the app,
+            providing feedback - I am missing option to go to the home screen directly after exchanging money instead of
+            having 4 click to Navigate there
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Miyah Miles</h6>
+            <p class="testimonial__location">London, UK</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Finally free from old-school banks
+          </h5>
+          <blockquote class="testimonial__text">
+            As an analyst working with mobile app I can only say this is a very good, reliable and safe product. I've
+            been using it for years now and bumped into a bug a few times. I'm not likely to change banking provider any
+            time soon thanks to the app.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Francisco Gomes</h6>
+            <p class="testimonial__location">Lisbon, Portugal</p>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        To najlepsza decyzja, aby stać się kolejnym klientem naszego banku. Zaufało nam tysiące osób. Możesz być
+        następny!
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Otwórz swoje konto bankowe dzisiaj!</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">O nas</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Cena </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Warunki korzystania </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Polityka prywatności</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Kariera</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Kontakt z nami </a>
+      </li>
+    </ul>
+    <img src="img/icon.png" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; Copyright by
+      <a class="footer__link twitter-link" target="_blank" href="https://twitter.com/martynanysztal">Martyna
+        Nysztal</a>
+    </p>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Otwórz swoje konto bankowe <br />
+      teraz <span class="highlight">5 minut</span>
+    </h2>
+    <form class="modal__form">
+      <label>Imię</label>
+      <input type="text" />
+      <label>Nazwisko</label>
+      <input type="text" />
+      <label>Adres mailowy</label>
+      <input type="email" />
+      <button class="btn">Następny krok &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
